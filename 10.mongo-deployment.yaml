@@ -31,8 +31,8 @@ spec:
         - containerPort: 27017
         volumeMounts:
         - mountPath: /data/db
-          name: hostpath_pv
+          name: hostpath-pv
       volumes:
-        - name: hostpath_pv
+        - name: hostpath-pv
           persistentVolumeClaim:
-            claimName: hostpath_pv
+            claimName: hostpath-pv

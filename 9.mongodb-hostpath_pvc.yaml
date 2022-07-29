@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: hostpath_pv
+  name: hostpath-pv
   annotations:
     volume.beta.kubernetes.io/storage-class: gp2
 spec:
